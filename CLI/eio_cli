@@ -265,7 +265,7 @@ class Cache_rec(Structure):
 		     blksize="", assoc=""): 
 	
 		modes = {"wt":3,"wb":1,"ro":2,"":0}
-		policies = {4:"lifo", "rand":3,"fifo":1, "lru":2,"":0}
+		policies = {"lifo":4, "rand":3,"fifo":1, "lru":2,"":0}
 		blksizes = {"4096":4096, "2048":2048, "8192":8192,"":0}	
 		associativity = {2048:128, 4096:256, 8192:512,0:0}
 		
